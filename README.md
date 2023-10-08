@@ -1,4 +1,3 @@
-![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/ec975910-2f56-4640-8521-b2d29994f314)# automl_streamlit
 Utilizes pycaret to automates machine learning workflows (Deployed at streamlit)
 
 Currently deployed at streamlit community cloud, performance may be slow.
