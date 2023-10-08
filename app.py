@@ -39,5 +39,4 @@ if choice == "Modelling":
         compare_df = pull()
         st.dataframe(compare_df)
         save_model(best_model, 'best_model')
-        # Add a download button for the saved model
 
