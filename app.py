@@ -40,5 +40,4 @@ if choice == "Modelling":
         st.dataframe(compare_df)
         save_model(best_model, 'best_model')
         # Add a download button for the saved model
-        st.markdown(f'<a href="./best_model.pkl" download="best_model.pkl">Download Best Model</a>', unsafe_allow_html=True)
 
