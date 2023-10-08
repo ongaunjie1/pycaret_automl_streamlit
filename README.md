@@ -14,7 +14,6 @@ Other alternatives:
 How to use the AutoML app?
 
 Step 0: Select Upload > Profiling > Classification OR Regression
-![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/66fc9bca-ca5d-4e2a-97b9-ab4f634508c1)
 
 Step 1: Upload your dataset
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/643dd549-acf5-4862-9fb6-f31d9a8a54f7)
