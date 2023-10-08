@@ -5,7 +5,7 @@ https://automlapp-pycaret.streamlit.app/
 
 Important Note: 
 1) The app was created for classification problems and regression problems
-2) The app might take a long time to run on the streamlit community cloud due to limited resources available (>=30 min)
+2) The app might take a long time to run on the streamlit community cloud due to limited resources available (>=20 min)
    
 Other alternatives:
 1) Run the source code locally on your computer for faster performance
