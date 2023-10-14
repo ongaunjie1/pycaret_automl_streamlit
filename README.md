@@ -1,17 +1,15 @@
 # Utilizes pycaret to automates machine learning workflows (Deployed at streamlit)
+* Link: https://automlapp-pycaret.streamlit.app/
 
-Currently deployed at streamlit community cloud, performance may be slow.
-https://automlapp-pycaret.streamlit.app/
-
-Important Note: 
+# Important Note: 
 1) The app was created for classification problems and regression problems
 2) The app might take a long time to run on the streamlit community cloud due to limited resources available (>=20 min)
    
-Other alternatives:
+# Other alternatives:
 1) Run the source code locally on your computer for faster performance
 2) Deploy the streamlit app on a paid cloud service
 
-How to use the AutoML app?
+# Steps on how to use the AutoML app?
 
 Step 0: Select Upload > Profiling > Classification OR Regression
 
