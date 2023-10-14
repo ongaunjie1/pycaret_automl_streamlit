@@ -18,19 +18,19 @@
 
 # Steps on how to use the AutoML app?
 
-Step 1: Upload your dataset
+* Step 1: Upload your dataset
 
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/643dd549-acf5-4862-9fb6-f31d9a8a54f7)
 
-Step 2: Select Profiling 
+* Step 2: Select Profiling 
 
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/02bdc253-3ac2-4d5b-9ba4-daca22f48f2f)
 
-Step 3: Select ML problem (Classification or Regression) and select target variable
+* Step 3: Select ML problem (Classification or Regression) and select target variable
 
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/81790877-548f-42ee-a607-7a1f8a6f891b)
 
-Step 4: Run the modelling and review the output
+* Step 4: Run the modelling and review the output
 
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/598839fc-b4b0-413c-abf7-5ce577314ab8)
 
