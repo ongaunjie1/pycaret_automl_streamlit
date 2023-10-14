@@ -18,6 +18,10 @@
 * Add other pycaret's functionality into the app such as adding support for unsupervised ML problems or model fine-tuning capabilities.
 * Check out pycaret's doc: https://pycaret.gitbook.io/docs/get-started/modules
 
+# Docker Image
+* Pull command: docker pull ongaunjie1/automl-app:latest
+* Run command: docker run -d -p 8050:8050 ongaunjie1/automl-all:latest
+
 # Steps on how to use the AutoML app?
 
 * **Step 1: Upload your dataset**
