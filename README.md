@@ -1,4 +1,4 @@
-Utilizes pycaret to automates machine learning workflows (Deployed at streamlit)
+# Utilizes pycaret to automates machine learning workflows (Deployed at streamlit)
 
 Currently deployed at streamlit community cloud, performance may be slow.
 https://automlapp-pycaret.streamlit.app/
