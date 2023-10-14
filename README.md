@@ -1,16 +1,20 @@
-# Utilizes pandas-profilling and pycaret for a faster model selection process (Deployed at streamlit)
+# Utilizes pandas-profilling and pycaret for a faster model selection process 
 * https://github.com/pycaret/pycaret
-* Link: https://automlapp-pycaret.streamlit.app/
+* Deployed at Streamlit community cloud: https://automlapp-pycaret.streamlit.app/
   
 # Important Note: 
 1) The app was created for classification problems and regression problems
 2) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Does not include fine-tuning)**
 3) Fine-tuning may be done on a notebook after model selection 
 4) The app might take a long time to run on the streamlit community cloud due to limited resources available
-   
+
 # Other alternatives:
-1) Run the code locally on your computer for faster performance 
-3) Deploy the streamlit app on a paid cloud service for faster performance
+* Run the code locally on your computer for faster performance
+*  Deploy the streamlit app on a paid cloud service for faster performance
+
+# Further improvement:
+* Add other pycaret's functionality into the app such as adding support for unsupervised ML problems or model fine-tuning capabilities.
+* Check out pycaret's doc: https://pycaret.gitbook.io/docs/get-started/modules
 
 # Steps on how to use the AutoML app?
 
