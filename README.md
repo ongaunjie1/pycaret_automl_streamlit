@@ -20,7 +20,7 @@
 
 # Docker Image
 * Pull command: docker pull ongaunjie1/automl-app:latest
-* Run command: docker run -d -p 8051:8051 ongaunjie1/automl-all:latest
+* Run command: docker run -d -p 8501:8501 ongaunjie1/automl-all:latest
 
 # Steps on how to use the AutoML app?
 
