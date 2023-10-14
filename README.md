@@ -7,6 +7,8 @@
 2) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Does not include fine-tuning)**
 3) Fine-tuning may be done on a notebook after model selection 
 4) The app might take a long time to run on the streamlit community cloud due to limited resources available
+5) Pycaret is CPU intensive, make sure your CPU is fast enough. Else, you could run Pycaret using GPU for a faster performance.
+6) Simply add use_gpu=True into classification_setup(df, target=chosen_target, verbose=False, **use_gpu=True**) to utilize GPU instead of CPU
 
 # Other alternatives:
 * Run the code locally on your computer for faster performance
