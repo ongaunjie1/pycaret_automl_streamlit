@@ -3,9 +3,8 @@
 * pycaret's documentation: https://pycaret.gitbook.io/docs/get-started/modules
 * Strealit app deployed at Streamlit community cloud: https://automlapp-pycaret.streamlit.app/
 
-# This repository will showcase the simplest implementation of PyCaret into a streamlit app (only using model comparison)
-* Refer to the last section below for a more in-depth use case of PyCaret, adding in other features such as data-preprocessing, model creation, model tuning, model evaluation, model saving.
-* These features can be added to the streamlit app if desire.
+# This repository will showcase the simplest implementation of PyCaret into a streamlit app (only using pycaret's default settings)
+* Refer to the last section below for an example of running PyCaret in a notebook with additional features such as fine-tuning, model evaluation and model saving.
 
 # What does pandas-profiling do ?
 * Pandas-Profiling is a Python library that provides a simple and efficient way to perform exploratory data analysis (EDA) on a Pandas DataFrame. The library generates a comprehensive HTML report with various statistical and visual insights into the structure and characteristics of the dataset.
@@ -20,8 +19,8 @@
   
 # Important Note: 
 1) The app was created for classification problems and regression problems
-2) Make sure that your data is cleaned before using PyCaret
-3) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Does not include data pre-processing and fine-tuning)*
+2) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Only uses PyCaret's basic pre-processing steps and does not fine-tune model)*
+3) To further modify the settings of PyCaret, Refer to the pycaret's documentation.
 4) The app might take a long time to run on the streamlit community cloud due to limited resources available
 5) Pycaret is CPU intensive, make sure your CPU is fast enough. Else, you could run Pycaret using GPU for a faster performance
 6) Simply add **use_gpu=True** into classification_setup(df, target=chosen_target, verbose=False, **use_gpu=True**) to utilize GPU instead of CPU
@@ -31,7 +30,7 @@
 * Deploy the streamlit app on a paid cloud service for a faster performance
 
 # Further improvement:
-* Add pycaret's other functionality into the app such as adding data pre-processing and model fine-tuning capabilities.
+* Add pycaret's other functionality into the app such as adding more options for data pre-processing and model fine-tuning capabilities.
 
 # Docker Image
 * Pull command: docker pull ongaunjie1/automl-app:latest
