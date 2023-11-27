@@ -60,7 +60,7 @@
 ## List of modules for different machine learning problems
 ![image](https://github.com/ongaunjie1/pycaret_automl_streamlit/assets/118142884/f1f936e5-2309-4861-ba07-0ae6b9a615f8)
 
-## Example: Predicting employee churn (Refer to the employee_churn.ipynb notebook within this repository for more info)
+## Example: Predicting employee churn (You can find the colab notebook within this repository (employee_churn.ipynb)
 
 ### Model comparison table
 ![image](https://github.com/ongaunjie1/pycaret_automl_streamlit/assets/118142884/5b3e93d9-e9f5-4bd2-aba2-df347de26c6e)
