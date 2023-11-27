@@ -1,6 +1,23 @@
 # Utilizes pandas-profilling and pycaret for a faster model selection process 
 * https://github.com/pycaret/pycaret
-* Deployed at Streamlit community cloud: https://automlapp-pycaret.streamlit.app/
+* pycaret's documentation: https://pycaret.gitbook.io/docs/get-started/modules
+* Strealit app deployed at Streamlit community cloud: https://automlapp-pycaret.streamlit.app/
+
+# This repository will showcase the simplest implementation of PyCaret into a streamlit app (only using model comparison)
+* Refer to the last section below for a more in-depth use case of PyCaret, adding in other features such as data-preprocessing, model creation, model tuning, model evaluation
+* These features can be added to the streamlit app if desire.
+
+# What does pandas-profiling do ?
+* Pandas-Profiling is a Python library that provides a simple and efficient way to perform exploratory data analysis (EDA) on a Pandas DataFrame. The library generates a comprehensive HTML report with various statistical and visual insights into the structure and characteristics of the dataset.
+
+# What does PyCaret do ?
+* PyCaret is an open-source, low-code maching learning library in Python that automates machine learning workflows. It is an end-to-end machine learning and Model management
+  tool that exponentially speeds up experiment cycle and makes you more productive.
+
+
+# App features
+* Utilize pandas-profiling to generate a HTML report with insights from a dataset.
+* Utilizes PyCaret to quickly compare between different algorithms, generates a table ranking each algorithms based on metrics. 
   
 # Important Note: 
 1) The app was created for classification problems and regression problems
@@ -16,7 +33,6 @@
 
 # Further improvement:
 * Add pycaret's other functionality into the app such as adding data pre-processing and model fine-tuning capabilities.
-* Check out pycaret's doc: https://pycaret.gitbook.io/docs/get-started/modules
 
 # Docker Image
 * Pull command: docker pull ongaunjie1/automl-app:latest
@@ -40,7 +56,7 @@
 
 ![image](https://github.com/ongaunjie1/automl_streamlit/assets/118142884/598839fc-b4b0-413c-abf7-5ce577314ab8)
 
-
+# A more in-depth use-case of PyCaret, running on a notebook.
 
 
 
