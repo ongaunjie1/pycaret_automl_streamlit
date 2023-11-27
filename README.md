@@ -4,18 +4,18 @@
   
 # Important Note: 
 1) The app was created for classification problems and regression problems
-2) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Does not include fine-tuning)**
-3) Fine-tuning may be done on a notebook after model selection
+2) Make sure that your data is cleaned before using PyCaret
+3) Purpose of the app is to quickly gauge the performance of different types of models on your dataset, allows for a quicker model selection process **(Does not include data pre-processing and fine-tuning)*
 4) The app might take a long time to run on the streamlit community cloud due to limited resources available
-6) Pycaret is CPU intensive, make sure your CPU is fast enough. Else, you could run Pycaret using GPU for a faster performance
-7) Simply add **use_gpu=True** into classification_setup(df, target=chosen_target, verbose=False, **use_gpu=True**) to utilize GPU instead of CPU
+5) Pycaret is CPU intensive, make sure your CPU is fast enough. Else, you could run Pycaret using GPU for a faster performance
+6) Simply add **use_gpu=True** into classification_setup(df, target=chosen_target, verbose=False, **use_gpu=True**) to utilize GPU instead of CPU
 
 # Other alternatives:
 * Run the code locally on your computer for a faster performance
 * Deploy the streamlit app on a paid cloud service for a faster performance
 
 # Further improvement:
-* Add pycaret's other functionality into the app such as adding support for unsupervised ML problems or model fine-tuning capabilities.
+* Add pycaret's other functionality into the app such as adding data pre-processing and model fine-tuning capabilities.
 * Check out pycaret's doc: https://pycaret.gitbook.io/docs/get-started/modules
 
 # Docker Image
